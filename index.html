@@ -1,10 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CSS.LOCAL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<!--div#page>p.strong-red{Красный жирный апраграф $}*2+p.light-blue{Голубой легкий параграф $}*2-->
+<div id="page">
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Пункт 1</a></li>
+            <li>
+                <a href="#">Пункт 2</a>
+                <ul class="dropdown">
+                    <li><a href="#">Ссылка 1</a></li>
+                    <li><a href="#">Ссылка 2</a></li>
+                    <li><a href="#">Ссылка 3</a></li>
+                    <li><a href="#">Ссылка 4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Пункт 3</a></li>
+            <li><a href="#">Пункт 4</a></li>
+            <li><a href="#">Пункт 5</a></li>
+            <li><a href="#">Пункт 6</a></li>
+        </ul>
+    </div>
 
+    <div id="header">
+        <a class="logo" href="index.html" name="Логотип">
+            <img src="images/logo.png" alt="Логотип">
+        </a>
+        <form class="search">
+            <input type="text">
+            <input type="button" value="Поиск">
+        </form>
+    </div>
+
+    <div id="content">
+        <div id="article">
+            <p>Наш параграф</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li>Пункт 1</li>
+                <li>Пункт 2</li>
+                <li>Пункт 3</li>
+                <li>Пункт 4</li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <p>©6AHK0MAT 2016</p>
+    </div>
+
+
+</div>
 </body>
 </html>

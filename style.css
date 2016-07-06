@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
+
+/*Оформление параграфов*/
+body{
+    background-color: #333333;
+    background-image: url(images/18.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: left top;
+}
+
+#page{
+    width: 960px;
+    margin: 0 auto;
+}
+.strong-red{
+    margin-top: 400px;
+    font-weight: bold;
+    color: #3d82ff;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 30px;
+    letter-spacing: 5px;
+    word-spacing: 40px;
+    line-height: 30px;
+    font-family: 'Lobster', cursive;
+    font-variant: small-caps;
+}
+
+#styles li{
+    color: white;
+    font-family: 'Lobster', cursive;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 5px;
+    border: 1px solid #fff ;
+}
+
+#styles li:hover{
+    background: #000;
+}
+
+#navigation{
+    height: 65px;
+}
+#navigation ul li{
+    float: left;
+    position: relative;
+}
+
+#navigation ul li a{
+    color: #ffffff;
+    padding: 0 10px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    line-height: 65px;
+    display: block;
+    height: 65px;
+}
+
+#navigation ul li a:hover{
+    background: #e64064;
+    text-decoration: underline;
+}
+
+#header{
+    height: 204px;
+    position: relative;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+}
+
+.search{
+    position: absolute;
+    right: 0px;
+    top: 90px;
+}
+
+#navigation .dropdown{
+    position: absolute;
+    top: 100%;
+    width: 150px;
+    background-color: blue;
+    display: none;
+}
+
+#navigation li:hover .dropdown{
+    display: block;
+}
+
+#navigation .dropdown li{
+    width: 100%;
+    height: 45px;
+}
+
+#navigation .dropdown li a{
+    line-height: 45px;
+    height: 45px;
+}
+
+#article{
+    width: 740px;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
+}
+
+#article p{
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+}
+
+#sidebar{
+    padding-top: 20px;
+    width: 200px;
+    float: right;
+}
+
+#sidebar ul li{
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+}
+
+#footer{
+    padding-bottom: 0px;
+}
